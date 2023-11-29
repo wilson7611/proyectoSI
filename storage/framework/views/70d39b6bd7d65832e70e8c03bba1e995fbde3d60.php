@@ -8,7 +8,7 @@
                                         <div class="card-body">
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-grow-1 overflow-hidden">
-                                                    <h5 class="text-uppercase fw-bold text-white-50 text-truncate mb-0">
+                                                    <h5 class="fs-16 text-uppercase fw-bold text-white-50 text-truncate mb-0">
                                                         <?php echo e($especialidad->nombre); ?>
 
                                                     </h5>
@@ -26,7 +26,10 @@
                                                     <h4 class="fs-22 fw-bold ff-secondary text-white mb-4">
                                                         Total fichas: <span class="counter-value" data-target="559.25">8</span>
                                                     </h4>
-                                                    <a href="<?php echo e(route('principal.index')); ?>" class="text-decoration-underline text-white-50">Ingresar</a>
+                          
+                                                    <a type="button" class="text-decoration-underline text-white-50" data-bs-toggle="modal" data-bs-target="#exampleModalgrid">
+                                                        Ingresar
+                                                    </a>
                                                 </div>
                                                 <div class="avatar-sm flex-shrink-0">
                                                     <span class="avatar-title bg-soft-light rounded fs-3">
@@ -39,7 +42,9 @@
                                 </div><!-- end col -->
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div> <!-- end row-->
-                        
+
+                     
+                       <?php echo $__env->make('especialidades.create', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> 
 
                         
  <?php $__env->stopSection(); ?>                        

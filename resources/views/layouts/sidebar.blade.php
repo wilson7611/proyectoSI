@@ -98,7 +98,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a href="#sidebarEcommerce" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarEcommerce">@lang('translation.ecommerce')
                                 </a>
                                 <div class="collapse menu-dropdown" id="sidebarEcommerce">
@@ -282,12 +282,12 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </li>
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarLayouts" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarLayouts">
                         <i class="ri-layout-3-line"></i> <span>@lang('translation.layouts')</span>
                     </a>
@@ -307,11 +307,11 @@
                             </li>
                         </ul>
                     </div>
-                </li> <!-- end Dashboard Menu -->
+                </li> <!-- end Dashboard Menu --> --}}
+{{-- 
+                <li class="menu-title"><i class="ri-more-fill"></i> <span>@lang('translation.pages')</span></li> --}}
 
-                <li class="menu-title"><i class="ri-more-fill"></i> <span>@lang('translation.pages')</span></li>
-
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarAuth" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAuth">
                         <i class="ri-account-circle-line"></i> <span>@lang('translation.authentication')</span>
                     </a>
@@ -458,9 +458,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarPages">
                         <i class="ri-pages-line"></i> <span>@lang('translation.pages')</span>
                     </a>
@@ -512,8 +512,8 @@
                             </li>
                         </ul>
                     </div>
-                </li>
-                <li class="nav-item">
+                </li> --}}
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarLanding" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarLanding">
                         <i class="ri-rocket-line"></i> <span data-key="t-landing">Landing</span>
                     </a>
@@ -527,11 +527,11 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="menu-title"><i class="ri-more-fill"></i> <span>@lang('translation.components')</span></li>
+                {{-- <li class="menu-title"><i class="ri-more-fill"></i> <span>@lang('translation.components')</span></li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarUI">
                         <i class="ri-pencil-ruler-2-line"></i> <span>@lang('translation.base-ui')</span>
                     </a>
@@ -620,9 +620,9 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarAdvanceUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
                         <i class="ri-stack-line"></i> <span>@lang('translation.advance-ui')</span>
                     </a>
@@ -657,15 +657,15 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="widgets">
                         <i class="ri-honour-line"></i> <span>@lang('translation.widgets')</span>
                     </a>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarForms" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarForms">
                         <i class="ri-file-list-3-line"></i> <span>@lang('translation.forms')</span>
                     </a>
@@ -712,9 +712,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarTables" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTables">
                         <i class="ri-layout-grid-line"></i> <span>@lang('translation.tables')</span>
                     </a>
@@ -734,9 +734,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarCharts" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCharts">
                         <i class="ri-pie-chart-line"></i> <span>@lang('translation.charts')</span>
                     </a>
@@ -806,9 +806,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarIcons" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarIcons">
                         <i class="ri-compasses-2-line"></i> <span>@lang('translation.icons')</span>
                     </a>
@@ -831,9 +831,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarMaps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMaps">
                         <i class="ri-map-pin-line"></i> <span>@lang('translation.maps')</span>
                     </a>
@@ -856,9 +856,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarMultilevel" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMultilevel">
                         <i class="ri-share-line"></i> <span>@lang('translation.multi-level')</span>
                     </a>
@@ -894,7 +894,7 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
             </ul>
         </div>
