@@ -37,4 +37,4 @@ Route::resource('plantilla', PrincipalController::class);
 Route::resource('afiliado', AfiliadoController::class);
 Route::resource('especialidades', EspecialidadController::class);
 Route::resource('principal', PrincipalController::class);
-// Route::resource('admin', AdminController::class);
+Route::resource('admin', AdminController::class);
