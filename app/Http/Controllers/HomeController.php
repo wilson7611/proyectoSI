@@ -126,4 +126,8 @@ class HomeController extends Controller
             }
         }
     }
+    public function app()
+    {
+        return view('layouts.app');
+    }
 }

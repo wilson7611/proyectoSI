@@ -4,6 +4,7 @@ use App\Http\Controllers\PrincipalController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EspecialidadController;
 use App\Http\Controllers\AfiliadoController;
+use App\Http\Controllers\HomeController;
 use App\Models\Afiliado;
 use App\Models\Especialidad;
 use App\Models\Principal;
@@ -33,8 +34,9 @@ use Illuminate\Support\Facades\Auth;
 // Route::get('{any}', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 
 
+
+Route::resource('admin', AdminController::class);
 Route::resource('plantilla', PrincipalController::class);
 Route::resource('afiliado', AfiliadoController::class);
 Route::resource('especialidades', EspecialidadController::class);
 Route::resource('principal', PrincipalController::class);
-Route::resource('admin', AdminController::class);

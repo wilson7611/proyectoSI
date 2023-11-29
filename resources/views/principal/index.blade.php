@@ -1,17 +1,9 @@
-@extends('layouts.app')
+@extends('admin.index')
 @section('contenido')
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="row">
-
         <div class="col-md-3">
-
-
         </div>
-
         <div class="col-md-6">
             <div class="card text">
                 <div class="card-header">
@@ -24,8 +16,7 @@
                                 <label for="" class="form-label">Afiliado</label>
                                 <input type="text" name="" id="" class="form-control" placeholder=""
                                     aria-describedby="helpId" value="afiliado 1" readonly>
-                            </div>
-                            
+                            </div>    
                         </div>
                         <br>
                         <div class="row">
@@ -38,8 +29,7 @@
                                 <label for="" class="form-label">Medico</label>
                                 <input type="text" name="" id="" class="form-control" placeholder=""
                                     aria-describedby="helpId" value="Dr. asd asd" readonly>
-                            </div>
-                           
+                            </div>  
                         </div>
                         <br><br>
                         <div class="row">
@@ -56,7 +46,6 @@
                         </div>
                         <br><br>
                         <div class="row">
-                           
                             <div class="col-md-6">
                                 <input type="submit" value="Registrar" class="btn btn-success btn-block">
                            

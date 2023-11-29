@@ -1,10 +1,6 @@
 
 <?php $__env->startSection('contenido'); ?>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="row">
 
         <div class="col-md-3">
@@ -77,4 +73,4 @@
     <div class="row">
     <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\vistasLaravel\resources\views/principal/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('admin.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\vistasLaravel\resources\views/principal/index.blade.php ENDPATH**/ ?>
